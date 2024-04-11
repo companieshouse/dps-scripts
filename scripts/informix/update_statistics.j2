@@ -72,7 +72,7 @@ source_informix_config () {
 set_database_name () {
     case "${service}" in
         'dps')
-            database="dps"
+            database="image"
             ;;
         *)
             error "No database name mapping for service ${service}"
